@@ -6,16 +6,6 @@
 	max-width: 300px;
 }
 
-.btn-primary {
-	background-color: #d35400;
-	border-color: #c0392b;
-}
-
-.btn-primary:hover {
-	background-color: #c0392b;
-	border-color: #c0392b;
-}
-
 .pagination-area {
 	text-align: center;
 }
