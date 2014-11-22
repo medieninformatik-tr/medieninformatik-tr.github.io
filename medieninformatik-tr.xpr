@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="16.0">
+    <meta>
+        <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="medieninformatik-tr.xpr">
+        <folder path="javascripts/"/>
+        <folder path="stylesheets/"/>
+        <file name="index.html"/>
+    </projectTree>
+</project>
