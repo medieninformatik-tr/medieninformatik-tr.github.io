@@ -1,11 +1,25 @@
-.logo {
-	margin: 20px 0 30px 0;
+img {
+	max-width: 100%;
 }
 
-.logo img {
+header .row {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header .logo img {
 	max-width: 300px;
 }
 
+header .cart {
+	text-align: right;
+}
+
+
 .pagination-area {
 	text-align: center;
+}
+
+main .site-head {
+	margin-bottom: 30px;
 }
