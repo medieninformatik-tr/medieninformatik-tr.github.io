@@ -23,3 +23,12 @@ header .cart {
 main .site-head {
 	margin-bottom: 30px;
 }
+
+main .filter {
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+main .filter-options {
+	margin-bottom: 20px;
+}
