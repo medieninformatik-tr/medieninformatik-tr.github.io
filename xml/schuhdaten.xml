@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schuhscout> <!--Einigermassen sinnvolle Schachtelung? Wie Wuerdest du es machen?-->
+<schuhscout>
     <schuhkategorien>
-	    <kategorie id="1" name="Sportschuhe" />
-	    <kategorie id="2" name="Laufschuhe" />
-	    <kategorie id="3" name="Trekkingschuhe" />
+	    <kategorie id="1" name="Sportschuhe"/>
+	    <kategorie id="2" name="Laufschuhe"/>
+	    <kategorie id="3" name="Trekkingschuhe"/>
     </schuhkategorien>
     <schuhkatalog>
         <kategorie id="1">
-            <artikel id="sport1"> <!--id oder besser class?-->
+            <artikel id="sport1">
                 <name>Speed Run</name>
-                <beschreibung>Lorem Ipsum</beschreibung>
-                <bild>/images/schuhdaten/1.jpg</bild>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s1.jpg"/>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
                 <groesse_bis>48</groesse_bis>
@@ -19,6 +19,8 @@
             </artikel>
             <artikel id="sport2">
                 <name>Light Blue</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s2.jpg"/>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
                 <groesse_bis>48</groesse_bis>
@@ -27,6 +29,8 @@
             </artikel>
             <artikel id="sport3">
                 <name>Speed Run</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s3.jpg"/>
                 <zielgruppe>Kinder</zielgruppe>
                 <groesse_von>28</groesse_von>
                 <groesse_bis>34</groesse_bis>
@@ -35,6 +39,8 @@
             </artikel>
             <artikel id="sport4">
                 <name>Quick Speed</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s4.jpg"/>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
                 <groesse_bis>48</groesse_bis>
@@ -43,6 +49,8 @@
             </artikel>
             <artikel id="sport5">
                 <name>Cyan Flash</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s5.jpg"/>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
                 <groesse_bis>48</groesse_bis>
@@ -51,6 +59,8 @@
             </artikel>
             <artikel id="sport6">
                 <name>Gowak</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s6.jpg"/>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
                 <groesse_bis>40</groesse_bis>
@@ -59,6 +69,8 @@
             </artikel>
             <artikel id="sport7">
                 <name>Lightgear</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s7.jpg"/>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
                 <groesse_bis>40</groesse_bis>
@@ -67,6 +79,8 @@
             </artikel>
             <artikel id="sport8">
                 <name>Mette</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s8.jpg"/>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
                 <groesse_bis>48</groesse_bis>
@@ -75,6 +89,8 @@
             </artikel>
             <artikel id="sport9">
                 <name>Flex Sole</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s9.jpg"/>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
                 <groesse_bis>48</groesse_bis>
@@ -83,57 +99,407 @@
             </artikel>
             <artikel id="sport10">
                 <name>Green Lantern</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s10.jpg"/>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
                 <groesse_bis>48</groesse_bis>
                 <marke>Nike</marke>
                 <farbe>Grün</farbe>
             </artikel>
+            <artikel id="sport11">
+                <name>Black and White</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s11.jpg"/>
+                <zielgruppe>Herren</zielgruppe>
+                <groesse_von>40</groesse_von>
+                <groesse_bis>48</groesse_bis>
+                <marke>Nike</marke>
+                <farbe>Grau</farbe>
+            </artikel>
+            <artikel id="sport12">
+                <name>Little Runner</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s12.jpg"/>
+                <zielgruppe>Kinder</zielgruppe>
+                <groesse_von>28</groesse_von>
+                <groesse_bis>34</groesse_bis>
+                <marke>Adidas</marke>
+                <farbe>Blau</farbe>
+            </artikel>
+            <artikel id="sport13">
+                <name>Gripster</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s13.jpg"/>
+                <zielgruppe>Kinder</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Vaude</marke>
+                <farbe>Braun</farbe>
+            </artikel>
+            <artikel id="sport14">
+                <name>Little Princess</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s14.jpg"/>
+                <zielgruppe>Kinder</zielgruppe>
+                <groesse_von>28</groesse_von>
+                <groesse_bis>34</groesse_bis>
+                <marke>Puma</marke>
+                <farbe>Weiß</farbe>
+            </artikel>
+            <artikel id="sport15">
+                <name>Little Prince</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s15.jpg"/>
+                <zielgruppe>Kinder</zielgruppe>
+                <groesse_von>28</groesse_von>
+                <groesse_bis>34</groesse_bis>
+                <marke>Puma</marke>
+                <farbe>Blau</farbe>
+            </artikel>
+            <artikel id="sport16">
+                <name>Sonic Blade</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s16.jpg"/>
+                <zielgruppe>Herren</zielgruppe>
+                <groesse_von>40</groesse_von>
+                <groesse_bis>48</groesse_bis>
+                <marke>Nike</marke>
+                <farbe>Grau</farbe>
+            </artikel>
+            <artikel id="sport17">
+                <name>Hyperfast</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s17.jpg"/>
+                <zielgruppe>Kinder</zielgruppe>
+                <groesse_von>28</groesse_von>
+                <groesse_bis>34</groesse_bis>
+                <marke>Adidas</marke>
+                <farbe>Blau</farbe>
+            </artikel>
+            <artikel id="sport18">
+                <name>Free Trainer</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s18.jpg"/>
+                <zielgruppe>Damen</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Nike</marke>
+                <farbe>Grau</farbe>
+            </artikel>
+            <artikel id="sport19">
+                <name>Nikos</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s19.jpg"/>
+                <zielgruppe>Kinder</zielgruppe>
+                <groesse_von>28</groesse_von>
+                <groesse_bis>34</groesse_bis>
+                <marke>Lico</marke>
+                <farbe>Schwarz</farbe>
+            </artikel>
+            <artikel id="sport20">
+                <name>Air Max</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s20.jpg"/>
+                <zielgruppe>Kinder</zielgruppe>
+                <groesse_von>28</groesse_von>
+                <groesse_bis>34</groesse_bis>
+                <marke>Nike</marke>
+                <farbe>Grau</farbe>
+            </artikel>
+            <artikel id="sport21">
+                <name>Double Speed</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s21.jpg"/>
+                <zielgruppe>Kinder</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Nike</marke>
+                <farbe>Weiß</farbe>
+            </artikel>
+            <artikel id="sport22">
+                <name>Formlite</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s22.jpg"/>
+                <zielgruppe>Damen</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Puma</marke>
+                <farbe>Bunt</farbe>
+            </artikel>
+            <artikel id="sport23">
+                <name>Street Dance</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s23.jpg"/>
+                <zielgruppe>Damen</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Lico</marke>
+                <farbe>Grau</farbe>
+            </artikel>
+            <artikel id="sport24">
+                <name>Fluid Fit</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/sport/s24.jpg"/>
+                <zielgruppe>Damen</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Lico</marke>
+                <farbe>Rot</farbe>
+            </artikel>
         </kategorie>
         <kategorie id="2">
             <artikel id="lauf1">
-                <name></name>
-                <zielgruppe></zielgruppe>
-                <groesse></groesse>
-                <marke></marke>
-                <farbe></farbe>
+                <name>Tubes Run</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/lauf/l1.jpg"/>
+                <zielgruppe>Herren</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Adidas</marke>
+                <farbe>Schwarz</farbe>
             </artikel>
             <artikel id="lauf2">
-                <name></name>
-                <zielgruppe></zielgruppe>
-                <groesse></groesse>
-                <marke></marke>
-                <farbe></farbe>
+                <name>Minimus Vibram</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/lauf/l2.jpg"/>
+                <zielgruppe>Damen</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Skechers</marke>
+                <farbe>Weiß</farbe>
             </artikel>
             <artikel id="lauf3">
-                <name></name>
-                <zielgruppe></zielgruppe>
-                <groesse></groesse>
-                <marke></marke>
-                <farbe></farbe>
+                <name>Zeet</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/lauf/l3.jpg"/>
+                <zielgruppe>Damen</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Adidas</marke>
+                <farbe>Pink</farbe>
+            </artikel>
+            <artikel id="lauf4">
+                <name>Color Splash</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/lauf/l4.jpg"/>
+                <zielgruppe>Herren</zielgruppe>
+                <groesse_von>40</groesse_von>
+                <groesse_bis>48</groesse_bis>
+                <marke>Asics</marke>
+                <farbe>Bunt</farbe>
+            </artikel>
+            <artikel id="lauf5">
+                <name>Climacool</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/lauf/l5.jpg"/>
+                <zielgruppe>Herren</zielgruppe>
+                <groesse_von>40</groesse_von>
+                <groesse_bis>48</groesse_bis>
+                <marke>Adidas</marke>
+                <farbe>Blau</farbe>
+            </artikel>
+            <artikel id="lauf6">
+                <name>Gel Noosa</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/lauf/l6.jpg"/>
+                <zielgruppe>Damen</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Asics</marke>
+                <farbe>Bunt</farbe>
+            </artikel>
+            <artikel id="lauf7">
+                <name>Green Run</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/lauf/l7.jpg"/>
+                <zielgruppe>Kinder</zielgruppe>
+                <groesse_von>28</groesse_von>
+                <groesse_bis>34</groesse_bis>
+                <marke>Asics</marke>
+                <farbe>Grün</farbe>
+            </artikel>
+            <artikel id="lauf8">
+                <name>Ghost</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/lauf/l8.jpg"/>
+                <zielgruppe>Damen</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Nike</marke>
+                <farbe>Blau</farbe>
+            </artikel>
+            <artikel id="lauf9">
+                <name>Orange Is The New Black</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/lauf/l9.jpg"/>
+                <zielgruppe>Herren</zielgruppe>
+                <groesse_von>40</groesse_von>
+                <groesse_bis>48</groesse_bis>
+                <marke>Asics</marke>
+                <farbe>Schwarz</farbe>
+            </artikel>
+            <artikel id="lauf10">
+                <name>Ultra Pink</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/lauf/l10.jpg"/>
+                <zielgruppe>Damen</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Nike</marke>
+                <farbe>Pink</farbe>
+            </artikel>
+            <artikel id="lauf11">
+                <name>New Balance</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/lauf/l11.jpg"/>
+                <zielgruppe>Damen</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Skechers</marke>
+                <farbe>Blau</farbe>
+            </artikel>
+            <artikel id="lauf12">
+                <name>Gobionic Trail</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/lauf/l12.jpg"/>
+                <zielgruppe>Damen</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Skechers</marke>
+                <farbe>Rot</farbe>
             </artikel>
         </kategorie>
         <kategorie id="3">
             <artikel id="trekk1">
-                <name></name>
-                <zielgruppe></zielgruppe>
-                <groesse></groesse>
-                <marke></marke>
-                <farbe></farbe>
+                <name>Hitchhike</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/trekk/t1.jpg"/>
+                <zielgruppe>Damen</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>CMP</marke>
+                <farbe>Braun</farbe>
             </artikel>
             <artikel id="trekk2">
-                <name></name>
-                <zielgruppe></zielgruppe>
-                <groesse></groesse>
-                <marke></marke>
-                <farbe></farbe>
+                <name>Vibram Trek</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/trekk/t2.jpg"/>
+                <zielgruppe>Damen</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Mc Kinley</marke>
+                <farbe>Braun</farbe>
             </artikel>
             <artikel id="trekk3">
+                <name>Blomon</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/trekk/t3.jpg"/>
+                <zielgruppe>Herren</zielgruppe>
+                <groesse_von>40</groesse_von>
+                <groesse_bis>48</groesse_bis>
+                <marke>Goretex</marke>
+                <farbe>Schwarz</farbe>
+            </artikel>
+            <artikel id="trekk4">
+                <name>Aquamax Vibram</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/trekk/t4.jpg"/>
+                <zielgruppe>Herren</zielgruppe>
+                <groesse_von>40</groesse_von>
+                <groesse_bis>48</groesse_bis>
+                <marke>Mc Kinley</marke>
+                <farbe>Schwarz</farbe>
+            </artikel>
+            <artikel id="trekk5">
+                <name>Lowa</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/trekk/t5.jpg"/>
+                <zielgruppe>Herren</zielgruppe>
+                <groesse_von>40</groesse_von>
+                <groesse_bis>48</groesse_bis>
+                <marke>Goretex</marke>
+                <farbe>Braun</farbe>
+            </artikel>
+            <artikel id="trekk6">
+                <name>Snoman</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/trekk/t6.jpg"/>
+                <zielgruppe>Herren</zielgruppe>
+                <groesse_von>40</groesse_von>
+                <groesse_bis>48</groesse_bis>
+                <marke>Goretex</marke>
+                <farbe>Braun</farbe>
+            </artikel>
+            <artikel id="trekk7">
+                <name>Nebraska</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/trekk/t7.jpg"/>
+                <zielgruppe>Damen</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Meindl</marke>
+                <farbe>Braun</farbe>
+            </artikel>
+            <artikel id="trekk8">
+                <name>Antracite</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/trekk/t8.jpg"/>
+                <zielgruppe>Herren</zielgruppe>
+                <groesse_von>40</groesse_von>
+                <groesse_bis>48</groesse_bis>
+                <marke>CMP</marke>
+                <farbe>Schwarz</farbe>
+            </artikel>
+            <artikel id="trekk9">
+                <name>Barcelona</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/trekk/t9.jpg"/>
+                <zielgruppe>Damen</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Meindl</marke>
+                <farbe>Braun</farbe>
+            </artikel>
+            <artikel id="trekk10">
+                <name>Lowa Ultra</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/trekk/t10.jpg"/>
+                <zielgruppe>Damen</zielgruppe>
+                <groesse_von>35</groesse_von>
+                <groesse_bis>40</groesse_bis>
+                <marke>Goretex</marke>
+                <farbe>Grau</farbe>
+            </artikel>
+            <artikel id="trekk11">
                 <name></name>
-                <zielgruppe></zielgruppe>
-                <groesse></groesse>
-                <marke></marke>
-                <farbe></farbe>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/trekk/t11.jpg"/>
+                <zielgruppe>Herren</zielgruppe>
+                <groesse_von>40</groesse_von>
+                <groesse_bis>48</groesse_bis>
+                <marke>Goretex</marke>
+                <farbe>Braun</farbe>
+            </artikel>
+            <artikel id="trekk12">
+                <name>Salomon</name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/trekk/t12.jpg"/>
+                <zielgruppe>Herren</zielgruppe>
+                <groesse_von>40</groesse_von>
+                <groesse_bis>48</groesse_bis>
+                <marke>Goretex</marke>
+                <farbe>Grau</farbe>
+            </artikel>
+            <artikel id="trekk13">
+                <name></name>
+                <beschreibung></beschreibung>
+                <img src="/images/schuhdaten/trekk/t13.jpg"/>
+                <zielgruppe>Herren</zielgruppe>
+                <groesse_von>40</groesse_von>
+                <groesse_bis>48</groesse_bis>
+                <marke>Mc Kinley</marke>
+                <farbe>Grau</farbe>
             </artikel>
         </kategorie>
     </schuhkatalog>
