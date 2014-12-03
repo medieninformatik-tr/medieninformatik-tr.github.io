@@ -1,20 +1,22 @@
-<!doctype html>
-<html>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-    	<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+    	<meta charset="utf-8" />
 		<title>Medieninformatik-tr.GitHub.io by medieninformatik-tr</title>
 
-		<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
-		<link rel="stylesheet" href="stylesheets/styles.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="stylesheets/bootstrap.min.css" />
+		<link rel="stylesheet" href="stylesheets/styles.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		
-		<script src="javascripts/jquery-2.1.1.min.js"></script>
-		<script src="javascripts/bootstrap.min.js"></script>
-		<script src="javascripts/Sportschuh.js"></script>
-		<script src="javascripts/Schuhdaten.js"></script>
-		<script src="javascripts/HtmlElement.js"></script>
-		<script src="javascripts/events.js"></script>
+		<script src="javascripts/jquery-2.1.1.min.js" />
+		<script src="javascripts/bootstrap.min.js" />
+		<script src="javascripts/helper.js" />
+		<script src="javascripts/Schuhdaten.js" />
+		<script src="javascripts/Sportschuh.js" />
+		<script src="javascripts/HtmlElement.js" />
+		<script src="javascripts/events.js" />
+		
 		<!--[if lt IE 9]>
 			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -47,8 +49,8 @@
 					
 					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					      <ul class="nav navbar-nav">
-					        <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
-					        <li class="active"><a href="shop.html">Shop</a></li>
+					        <li class="start active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+					      	<li class="shop"><a href="#">Shop</a></li>
 					        <li class="dropdown">
 					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projekt <span class="caret"></span></a>
 					          <ul class="dropdown-menu" role="menu">
@@ -61,11 +63,11 @@
 					            <li><a href="#">One more separated link</a></li>
 					          </ul>
 					        </li>
-					        <li><a href="impressum.html">Impressum</a></li>
+					        <li class="impressum"><a href="#">Impressum</a></li>
 					      </ul>
 					      <form class="navbar-form navbar-right" role="search">
 					        <div class="form-group">
-					          <input type="text" class="form-control" placeholder="Suchen...">
+					          <input type="text" class="form-control" placeholder="Suchen..." />
 					        </div>
 					        <button type="submit" class="btn btn-default">Suchen</button>
 					      </form>
@@ -76,48 +78,13 @@
         </div>
       </header>
       <div class="container">
-      	<div class="row site-head">
-	      	<div class="col-sm-12">
-		  		<h1>Shop</h1>
-	      	</div>
+      	<div class="main">
+      		<!-- Hier wird der Inhalt eingefügt -->
       	</div>
-      	<div class="row">
-	      	<aside class="col-md-3">
-		      	<h4 class="glyphicon glyphicon-filter">Filter</h4>
-		      	<h5>Kategorien</h5>
-		      	<ul>
-			      	<li><a href="#">Laufschuhe <span class="badge">8</span></a></li>
-			      	<li><a href="#">Trekkingschuhe <span class="badge">13</span></a></li>
-		      	</ul>
-		      	
-	      	</aside>
-	      	
-		  	<main class="col-md-9">
-		  		<div class="row products">
-			  		
-		  		</div> 
-		  		<div class="row">
-					<div class="col-sm-12 pagination-area">
-						<nav>
-							<ul class="pagination">
-								<li><a href="#"><span aria-hidden="true">&laquo;</span><span class="sr-only">Zur&uuml;ck</span></a></li>
-								<li><a href="#">1</a></li>
-								<li><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
-								<li><a href="#">4</a></li>
-								<li><a href="#">5</a></li>
-								<li><a href="#"><span aria-hidden="true">&raquo;</span><span class="sr-only">Vor</span></a></li>
-			  				</ul>
-						</nav>
-					</div>
-	  			</div>
-		  	</main>
-		</div>
+      </div>
       
       <footer>
         
       </footer>
-    </div>
-    
   </body>
 </html>

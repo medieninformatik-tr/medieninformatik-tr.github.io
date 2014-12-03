@@ -5,8 +5,9 @@
         <options/>
     </meta>
     <projectTree name="medieninformatik-tr.xpr">
+        <folder path="content/"/>
         <folder path="javascripts/"/>
         <folder path="stylesheets/"/>
-        <file name="index.html"/>
+        <file name="index.xhtml"/>
     </projectTree>
 </project>
