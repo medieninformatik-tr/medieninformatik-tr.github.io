@@ -7,6 +7,7 @@ function Sportschuh() {
 	this.groesse_bis;
 	this.marke;
 	this.farbe;
+	this.bildUrl;
 }
 
 Sportschuh.prototype = {
@@ -60,4 +61,10 @@ Sportschuh.prototype = {
     setFarbe: function (farbe){
      	this.farbe = farbe;
     },
+    getBildUrl: function (){
+        return this.bildUrl;
+    },
+    setBildUrl: function (bildUrl){
+     	this.bildUrl = bildUrl;
+    }
 }

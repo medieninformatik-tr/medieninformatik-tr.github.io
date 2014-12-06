@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-	var data = new Schuhdaten('xml/schuhdaten.xml');
+	var data = new Repository('xml/schuhdaten.xml');
 	data.init();
 	
 	// Navigationsevents
@@ -11,14 +11,18 @@ $(document).ready(function(){
 	    $('.active').removeClass('active');
 	    $('.start').toggleClass('active');
 	});
-	$('.shop').click(function() {
+	$('.shop').ready(function() {
 	    loadContent('content/shop.xhtml');
 	    $('.active').removeClass('active');
 	    $('.shop').toggleClass('active');
 	    
+	    // Erstellt die Kategorien
+	    var categories = data.getCategories();
+	    $('.categories').append( categoriesBlock(categories) );
+	    
+	    // Zeigt alle Schuhe an
 	    data.getAll().forEach(function(item) {
-		  var element = new HtmlElement(item);
-		  $('.products').append(element.get());
+		  $('.products').append( productElement(item) );
 	    });
 	});
 	$('.impressum').click(function() {

@@ -8,6 +8,7 @@
         <folder path="content/"/>
         <folder path="javascripts/"/>
         <folder path="stylesheets/"/>
+        <folder path="xml/"/>
         <file name="index.xhtml"/>
     </projectTree>
 </project>

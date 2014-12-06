@@ -5,17 +5,26 @@
         </div>
     </div>
 <div class="row">
-    <aside class="col-md-3">
-        <h4 class="glyphicon glyphicon-filter">Filter</h4>
-        <h5>Kategorien</h5>
-        <ul>
-            <li><a href="#">Laufschuhe <span class="badge">8</span></a></li>
-            <li><a href="#">Trekkingschuhe <span class="badge">13</span></a></li>
-        </ul>
-        
+    <aside class="col-md-3 col-md-push-9">
+        <h4><span class="glyphicon glyphicon-shopping-cart" /> Warenkorb</h4>
+        <div class="cart clearfix">
+            <div class="cart-element">
+                <div class="cart-name">Keine Artikel</div>
+                <div class="cart-price"></div>
+            </div>
+            <!-- Hier werden die Einkäufe eingefügt -->
+        </div>
+        <button type="button" class="btn btn-primary">Kaufen</button>
+        <h4><span class="glyphicon glyphicon-tags" /> Kategorien</h4>
+        <div class="categories">
+            <!-- Hier werden die Kategorien eingefügt -->
+        </div>
+       
+        <h4><span class="glyphicon glyphicon-euro" /> Preis</h4>
+        von: <input class="price" type="text"/> &#8364; bis: <input class="price" type="text"/> &#8364;
     </aside>
     
-    <main class="col-md-9">
+    <main class="col-md-9 col-md-pull-3">
         <div class="row products">
             <!-- Hier werden die Produkte eingefügt -->
         </div>
