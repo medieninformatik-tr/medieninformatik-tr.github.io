@@ -28,6 +28,25 @@ $(document).ready(function(e){
 		  $('.products').append( productElement(item) );
 	    });
 	});
+	
+	$('.projekt').click(function() {
+	    loadContent('content/projekt.xhtml');
+	    $('.active').removeClass('active');
+	    $('.projekt').toggleClass('active');
+	});
+
+	$('.warenkorb').click(function() {
+	    loadContent('content/warenkorb.xhtml');
+	    $('.active').removeClass('active');
+	    $('.warenkorb').toggleClass('active');
+	});
+
+	$('.suchen').click(function() {
+	    loadContent('content/suchen.xhtml');
+	    $('.active').removeClass('active');
+	    $('.suchen').toggleClass('active');
+	});
+
 	$('.impressum').click(function() {
 	    loadContent('content/impressum.xhtml');
 	    $('.active').removeClass('active');
