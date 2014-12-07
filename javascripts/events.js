@@ -14,7 +14,7 @@ $(document).ready(function(e){
 	    $('.active').removeClass('active');
 	    $('.start').toggleClass('active');
 	});
-	$('.shop').click(function() {
+	$('.shop').ready(function() {
 	    loadContent('content/shop.xhtml');
 	    $('.active').removeClass('active');
 	    $('.shop').toggleClass('active');
@@ -80,6 +80,16 @@ $(document).ready(function(e){
         
         $('.cart').empty();
         $('.cart').append( cartBlock(cart.getItems()) );
+    });
+    
+    $('body').on('click', '.toproduct', function (evt) {
+        var id = $(this).attr('data-id');
+        var items = data.getShoes({id: id});
+        
+        $('.modal-title').text(items[0].getName());
+        $('.modal-image').html('<img src="'+items[0].getBildUrl()+'" alt="..." />');
+        $('.product-page').modal('show')
+
     });
 });
 

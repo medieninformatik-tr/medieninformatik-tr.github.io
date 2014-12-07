@@ -7,7 +7,10 @@ function productElement(shoe) {
 		html += '<h3>'+shoe.getName()+'</h3>';
 		html += '<p>Lorem Ipsum</p>';
 		html += '</div>';
+		html += '<div class="buttons">'
+		html += '<button type="button" class="btn btn-success toproduct" data-id="'+shoe.getId()+'">Info</button>';
 		html += '<button type="button" class="btn btn-primary tocart" data-id="'+shoe.getId()+'">In den Warenkorb</button>';
+		html += '</div>';
 		html += '</div>';
 		html += '</div>';
 		

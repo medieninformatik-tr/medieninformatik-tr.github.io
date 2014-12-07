@@ -31,7 +31,6 @@ header .row {
     color: #fff;
 }
 
-
 .site-head {
 	margin-bottom: 30px;
 }
@@ -111,7 +110,19 @@ aside .category.active {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
-.shoe-item .tocart {
-    display: block;
-    margin: 5px auto 10px auto;
+.shoe-item .buttons {
+    text-align: center;
+}
+
+.shoe-item button {
+    margin: 4px;
+}
+
+.modal-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal-image img {
+    max-height: 150px;
 }
