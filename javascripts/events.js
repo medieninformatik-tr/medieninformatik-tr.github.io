@@ -14,7 +14,7 @@ $(document).ready(function(e){
 	    $('.active').removeClass('active');
 	    $('.start').toggleClass('active');
 	});
-	$('.shop').ready(function() {
+	$('.shop').click(function() {
 	    loadContent('content/shop.xhtml');
 	    $('.active').removeClass('active');
 	    $('.shop').toggleClass('active');
@@ -24,9 +24,7 @@ $(document).ready(function(e){
 	    $('.categories').append( categoriesBlock(categories) );
 	    
 	    // Zeigt alle Schuhe an
-	    data.getAll().forEach(function(item) {
-		  $('.products').append( productElement(item) );
-	    });
+	    appendItems( data.getAll() );
 	});
 	
 	$('.projekt').click(function() {
@@ -53,16 +51,11 @@ $(document).ready(function(e){
 	    $('.impressum').toggleClass('active');
 	});
 	
-	// Das Event wird persistent auch auf alle neu erstellten Elemente mit der Klasse .category gelegt
 	$('body').on('click', '.category', function (evt) {
         $('.category').removeClass('active');
         $(this).toggleClass('active');
         
-        $('.products').empty();
-        
-        data.getShoes({category: $(this).attr("data-id")}).forEach(function(item) {
-		  $('.products').append( productElement(item) );
-	    });
+        appendItems( data.getShoes( {category: $(this).attr("data-id")} ) );
     });
     
     $('body').on('click', '.tocart', function (evt) {
@@ -79,11 +72,7 @@ $(document).ready(function(e){
 	    
         var term = $('.search-input').val();
         
-        $('.products').empty();
-        
-        data.getShoes({term: term}).forEach(function(item) {
-		  $('.products').append( productElement(item) );
-	    });
+        appendItems(data.getShoes({term: term}));
     });
     
     $('body').on('click', '.delete-btn', function (evt) {

@@ -44,3 +44,11 @@ function cartBlock(cart) {
     
     return html;
 }
+
+function appendItems(items) {
+    $('.products').empty();
+        
+    items.forEach(function(item) {
+	   $('.products').append( productElement(item) );
+	});
+}
