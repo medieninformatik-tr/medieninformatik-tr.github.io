@@ -1,3 +1,7 @@
+a:hover {
+    text-decoration: none;
+}
+
 img {
 	max-width: 100%;
 }
@@ -11,7 +15,7 @@ header .logo img {
 	max-width: 300px;
 }
 
-header .cart {
+header .cart-btn {
 	text-align: right;
 }
 
@@ -51,6 +55,10 @@ aside .cart {
     margin-bottom: 10px;
 }
 
+aside .cart .delete-btn {
+    cursor: pointer;
+}
+
 aside .cart-element {
     border-bottom: 1px solid #ccc;
     margin-bottom: 5px;
@@ -64,9 +72,38 @@ aside .cart-element .cart-name {
 
 aside .cart-element .cart-price {
     display: inline-block;
-    width: 25%;
+    width: 22%;
 }
 
-.thumbnail img {
+aside .cart-element .cart-delete {
+    display: inline-block;
+    width: 3%;
+}
+
+aside .category.active {
+    font-weight: bold;
+    color: #333;
+}
+
+.shoe-item .picture {
+    text-align: center;
+    min-height: 140px;
+}
+
+.shoe-item img {
     max-height: 140px;
+    max-width: 80%;
+}
+
+.shoe-item {
+    padding-top: 20px;
+}
+
+.shoe-item:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.shoe-item .tocart {
+    display: block;
+    margin: 5px auto 10px auto;
 }

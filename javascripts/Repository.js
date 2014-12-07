@@ -57,6 +57,27 @@ Repository.prototype={
     },
     
     getShoes: function (parameters) {
-	    
+        var res = [];
+        if(parameters) {
+	       for (var s in this.data.shoes) {
+	           var shoe = this.data.shoes[s];
+	           if(parameters.category && parameters.category == shoe.getKategorie()) {
+	               res.push(shoe);  
+	           }
+	           
+	           if(parameters.id && parameters.id == shoe.getId()) {
+	               res.push(shoe);  
+	           }
+	           
+	           if(parameters.term) {
+	               var regex = new RegExp(parameters.term, "i");
+	               
+	               if(shoe.getName().search(regex) > -1) {
+	                   res.push(shoe); 
+	               }
+	           }
+	       }
+	    }
+	    return res;
     }
 }
