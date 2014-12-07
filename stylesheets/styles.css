@@ -6,23 +6,31 @@ img {
 	max-width: 100%;
 }
 
+header {
+    background-color: #2c3e50;
+}
+
 header .row {
 	margin-top: 20px;
-	margin-bottom: 20px;
 }
 
-header .logo img {
-	max-width: 300px;
+.navbar {
+    border: 0 !important;
+    background: none;
 }
 
-header .cart-btn {
-	text-align: right;
+.navbar a {
+    color: #fff !important;
 }
 
-
-.pagination-area {
-	text-align: center;
+.navbar li.active a {
+    background: none !important;
 }
+
+.navbar-toggle span {
+    color: #fff;
+}
+
 
 .site-head {
 	margin-bottom: 30px;
