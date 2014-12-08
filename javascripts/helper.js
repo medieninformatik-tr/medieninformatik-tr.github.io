@@ -1,12 +1,14 @@
 function loadContent(path) {
-    $('.main').empty();
+    html = "";
     
     $.ajax({
 	   async: false,
        url: path,
        success: function( content ){
-            $( ".main" ).html( content );
+            html = content;
        },
        dataType:"html"
     }); 
+    
+    return html;
 }

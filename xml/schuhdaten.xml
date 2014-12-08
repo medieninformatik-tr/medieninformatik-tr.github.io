@@ -16,7 +16,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Nike</marke>
                 <farbe>Blau</farbe>
-                <preis>89,90</preis>
+                <preis>89.90</preis>
             </artikel>
             <artikel id="sport2">
                 <name>Light Blue</name>
@@ -27,7 +27,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Nike</marke>
                 <farbe>Blau</farbe>
-                <preis>69,90</preis>
+                <preis>69.90</preis>
             </artikel>
             <artikel id="sport3">
                 <name>Speed Run</name>
@@ -38,7 +38,7 @@
                 <groesse_bis>34</groesse_bis>
                 <marke>Adidas</marke>
                 <farbe>Blau</farbe>
-                <preis>49,90</preis>
+                <preis>49.90</preis>
             </artikel>
             <artikel id="sport4">
                 <name>Quick Speed</name>
@@ -49,7 +49,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Adidas</marke>
                 <farbe>Schwarz</farbe>
-                <preis>69,90</preis>
+                <preis>69.90</preis>
             </artikel>
             <artikel id="sport5">
                 <name>Cyan Flash</name>
@@ -60,7 +60,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Nike</marke>
                 <farbe>Schwarz</farbe>
-                <preis>69,90</preis>
+                <preis>69.90</preis>
             </artikel>
             <artikel id="sport6">
                 <name>Gowak</name>
@@ -71,7 +71,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Skechers</marke>
                 <farbe>Grün</farbe>
-                <preis>59,90</preis>
+                <preis>59.90</preis>
             </artikel>
             <artikel id="sport7">
                 <name>Lightgear</name>
@@ -82,7 +82,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Skechers</marke>
                 <farbe>Grau</farbe>
-                <preis>69,90</preis>
+                <preis>69.90</preis>
             </artikel>
             <artikel id="sport8">
                 <name>Mette</name>
@@ -93,7 +93,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Asics</marke>
                 <farbe>Grau</farbe>
-                <preis>119,90</preis>
+                <preis>119.90</preis>
             </artikel>
             <artikel id="sport9">
                 <name>Flex Sole</name>
@@ -104,7 +104,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Skechers</marke>
                 <farbe>Braun</farbe>
-                <preis>79,90</preis>
+                <preis>79.90</preis>
             </artikel>
             <artikel id="sport10">
                 <name>Green Lantern</name>
@@ -115,7 +115,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Nike</marke>
                 <farbe>Grün</farbe>
-                <preis>49,90</preis>
+                <preis>49.90</preis>
             </artikel>
             <artikel id="sport11">
                 <name>Black and White</name>
@@ -126,7 +126,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Nike</marke>
                 <farbe>Grau</farbe>
-                <preis>49,90</preis>
+                <preis>49.90</preis>
             </artikel>
             <artikel id="sport12">
                 <name>Little Runner</name>
@@ -137,7 +137,7 @@
                 <groesse_bis>34</groesse_bis>
                 <marke>Adidas</marke>
                 <farbe>Blau</farbe>
-                <preis>69,90</preis>
+                <preis>69.90</preis>
             </artikel>
             <artikel id="sport13">
                 <name>Gripster</name>
@@ -148,7 +148,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Vaude</marke>
                 <farbe>Braun</farbe>
-                <preis>89,90</preis>
+                <preis>89.90</preis>
             </artikel>
             <artikel id="sport14">
                 <name>Little Princess</name>
@@ -159,7 +159,7 @@
                 <groesse_bis>34</groesse_bis>
                 <marke>Puma</marke>
                 <farbe>Weiß</farbe>
-                <preis>39,90</preis>
+                <preis>39.90</preis>
             </artikel>
             <artikel id="sport15">
                 <name>Little Prince</name>
@@ -170,7 +170,7 @@
                 <groesse_bis>34</groesse_bis>
                 <marke>Puma</marke>
                 <farbe>Blau</farbe>
-                <preis>39,90</preis>
+                <preis>39.90</preis>
             </artikel>
             <artikel id="sport16">
                 <name>Sonic Blade</name>
@@ -181,7 +181,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Nike</marke>
                 <farbe>Grau</farbe>
-                <preis>79,90</preis>
+                <preis>79.90</preis>
             </artikel>
             <artikel id="sport17">
                 <name>Hyperfast</name>
@@ -192,7 +192,7 @@
                 <groesse_bis>34</groesse_bis>
                 <marke>Adidas</marke>
                 <farbe>Blau</farbe>
-                <preis>59,90</preis>
+                <preis>59.90</preis>
             </artikel>
             <artikel id="sport18">
                 <name>Free Trainer</name>
@@ -203,7 +203,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Nike</marke>
                 <farbe>Grau</farbe>
-                <preis>59,90</preis>
+                <preis>59.90</preis>
             </artikel>
             <artikel id="sport19">
                 <name>Nikos</name>
@@ -214,7 +214,7 @@
                 <groesse_bis>34</groesse_bis>
                 <marke>Lico</marke>
                 <farbe>Schwarz</farbe>
-                <preis>39,90</preis>
+                <preis>39.90</preis>
             </artikel>
             <artikel id="sport20">
                 <name>Air Max</name>
@@ -225,7 +225,7 @@
                 <groesse_bis>34</groesse_bis>
                 <marke>Nike</marke>
                 <farbe>Grau</farbe>
-                <preis>49,90</preis>
+                <preis>49.90</preis>
             </artikel>
             <artikel id="sport21">
                 <name>Double Speed</name>
@@ -236,7 +236,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Nike</marke>
                 <farbe>Weiß</farbe>
-                <preis>99,90</preis>
+                <preis>99.90</preis>
             </artikel>
             <artikel id="sport22">
                 <name>Formlite</name>
@@ -247,7 +247,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Puma</marke>
                 <farbe>Bunt</farbe>
-                <preis>49,90</preis>
+                <preis>49.90</preis>
             </artikel>
             <artikel id="sport23">
                 <name>Street Dance</name>
@@ -258,7 +258,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Lico</marke>
                 <farbe>Grau</farbe>
-                <preis>69,90</preis>
+                <preis>69.90</preis>
             </artikel>
             <artikel id="sport24">
                 <name>Fluid Fit</name>
@@ -269,7 +269,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Lico</marke>
                 <farbe>Rot</farbe>
-                <preis>59,90</preis>
+                <preis>59.90</preis>
             </artikel>
         </kategorie>
         <kategorie id="2">
@@ -282,7 +282,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Adidas</marke>
                 <farbe>Schwarz</farbe>
-                <preis>119,90</preis>
+                <preis>119.90</preis>
             </artikel>
             <artikel id="lauf2">
                 <name>Minimus Vibram</name>
@@ -293,7 +293,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Skechers</marke>
                 <farbe>Weiß</farbe>
-                <preis>79,90</preis>
+                <preis>79.90</preis>
             </artikel>
             <artikel id="lauf3">
                 <name>Zeet</name>
@@ -304,7 +304,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Adidas</marke>
                 <farbe>Pink</farbe>
-                <preis>69,90</preis>
+                <preis>69.90</preis>
             </artikel>
             <artikel id="lauf4">
                 <name>Color Splash</name>
@@ -315,7 +315,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Asics</marke>
                 <farbe>Bunt</farbe>
-                <preis>119,90</preis>
+                <preis>119.90</preis>
             </artikel>
             <artikel id="lauf5">
                 <name>Climacool</name>
@@ -326,7 +326,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Adidas</marke>
                 <farbe>Blau</farbe>
-                <preis>79,90</preis>
+                <preis>79.90</preis>
             </artikel>
             <artikel id="lauf6">
                 <name>Gel Noosa</name>
@@ -337,7 +337,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Asics</marke>
                 <farbe>Bunt</farbe>
-                <preis>69,90</preis>
+                <preis>69.90</preis>
             </artikel>
             <artikel id="lauf7">
                 <name>Green Run</name>
@@ -348,7 +348,7 @@
                 <groesse_bis>34</groesse_bis>
                 <marke>Asics</marke>
                 <farbe>Grün</farbe>
-                <preis>39,90</preis>
+                <preis>39.90</preis>
             </artikel>
             <artikel id="lauf8">
                 <name>Ghost</name>
@@ -359,7 +359,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Nike</marke>
                 <farbe>Blau</farbe>
-                <preis>49,90</preis>
+                <preis>49.90</preis>
             </artikel>
             <artikel id="lauf9">
                 <name>Orange Is The New Black</name>
@@ -370,7 +370,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Asics</marke>
                 <farbe>Schwarz</farbe>
-                <preis>129,90</preis>
+                <preis>129.90</preis>
             </artikel>
             <artikel id="lauf10">
                 <name>Ultra Pink</name>
@@ -381,7 +381,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Nike</marke>
                 <farbe>Pink</farbe>
-                <preis>49,90</preis>
+                <preis>49.90</preis>
             </artikel>
             <artikel id="lauf11">
                 <name>New Balance</name>
@@ -392,7 +392,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Skechers</marke>
                 <farbe>Blau</farbe>
-                <preis>39,90</preis>
+                <preis>39.90</preis>
             </artikel>
             <artikel id="lauf12">
                 <name>Gobionic Trail</name>
@@ -403,7 +403,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Skechers</marke>
                 <farbe>Rot</farbe>
-                <preis>39,90</preis>
+                <preis>39.90</preis>
             </artikel>
         </kategorie>
         <kategorie id="3">
@@ -416,7 +416,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>CMP</marke>
                 <farbe>Braun</farbe>
-                <preis>79,90</preis>
+                <preis>79.90</preis>
             </artikel>
             <artikel id="trekk2">
                 <name>Vibram Trek</name>
@@ -427,7 +427,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Mc Kinley</marke>
                 <farbe>Braun</farbe>
-                <preis>29,90</preis>
+                <preis>29.90</preis>
             </artikel>
             <artikel id="trekk3">
                 <name>Blomon</name>
@@ -438,7 +438,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Goretex</marke>
                 <farbe>Schwarz</farbe>
-                <preis>89,90</preis>
+                <preis>89.90</preis>
             </artikel>
             <artikel id="trekk4">
                 <name>Aquamax Vibram</name>
@@ -449,7 +449,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Mc Kinley</marke>
                 <farbe>Schwarz</farbe>
-                <preis>119,90</preis>
+                <preis>119.90</preis>
             </artikel>
             <artikel id="trekk5">
                 <name>Lowa</name>
@@ -460,7 +460,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Goretex</marke>
                 <farbe>Braun</farbe>
-                <preis>89,90</preis>
+                <preis>89.90</preis>
             </artikel>
             <artikel id="trekk6">
                 <name>Snoman</name>
@@ -471,7 +471,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Goretex</marke>
                 <farbe>Braun</farbe>
-                <preis>89,90</preis>
+                <preis>89.90</preis>
             </artikel>
             <artikel id="trekk7">
                 <name>Nebraska</name>
@@ -482,7 +482,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Meindl</marke>
                 <farbe>Braun</farbe>
-                <preis>89,90</preis>
+                <preis>89.90</preis>
             </artikel>
             <artikel id="trekk8">
                 <name>Antracite</name>
@@ -493,7 +493,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>CMP</marke>
                 <farbe>Schwarz</farbe>
-                <preis>99,90</preis>
+                <preis>99.90</preis>
             </artikel>
             <artikel id="trekk9">
                 <name>Barcelona</name>
@@ -504,7 +504,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Meindl</marke>
                 <farbe>Braun</farbe>
-                <preis>119,90</preis>
+                <preis>119.90</preis>
             </artikel>
             <artikel id="trekk10">
                 <name>Lowa Ultra</name>
@@ -515,7 +515,7 @@
                 <groesse_bis>40</groesse_bis>
                 <marke>Goretex</marke>
                 <farbe>Grau</farbe>
-                <preis>129,90</preis>
+                <preis>129.90</preis>
             </artikel>
             <artikel id="trekk11">
                 <name>Brown Trek</name>
@@ -526,7 +526,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Goretex</marke>
                 <farbe>Braun</farbe>
-                <preis>119,90</preis>
+                <preis>119.90</preis>
             </artikel>
             <artikel id="trekk12">
                 <name>Salomon</name>
@@ -537,7 +537,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Goretex</marke>
                 <farbe>Grau</farbe>
-                <preis>119,90</preis>
+                <preis>119.90</preis>
             </artikel>
             <artikel id="trekk13">
                  <name>Scarpa</name>
@@ -548,7 +548,7 @@
                 <groesse_bis>48</groesse_bis>
                 <marke>Mc Kinley</marke>
                 <farbe>Grau</farbe>
-                <preis>149,90</preis>
+                <preis>149.90</preis>
             </artikel>
         </kategorie>
     </schuhkatalog>

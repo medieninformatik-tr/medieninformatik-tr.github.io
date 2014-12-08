@@ -8,6 +8,7 @@ function Sportschuh() {
 	this.marke;
 	this.farbe;
 	this.bildUrl;
+	this.preis;
 }
 
 Sportschuh.prototype = {
@@ -66,5 +67,11 @@ Sportschuh.prototype = {
     },
     setBildUrl: function (bildUrl){
      	this.bildUrl = bildUrl;
+    },
+    getPreis: function (){
+        return this.preis;
+    },
+    setPreis: function (preis){
+     	this.preis = preis;
     }
 }

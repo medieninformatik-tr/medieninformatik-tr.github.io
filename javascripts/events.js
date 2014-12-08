@@ -4,18 +4,23 @@ $(document).ready(function(e){
 	data.init();
 	
 	var cart = new Cart(data);
-	
-	
+
 	// Navigationsevents
 	loadContent('content/start.xhtml');
 	
 	$('.start').click(function() {
-	    loadContent('content/start.xhtml');
+	    html = loadContent('content/start.xhtml');
+	    
+	    $('.main').empty();
+        $( ".main" ).html(html);
 	    $('.active').removeClass('active');
 	    $('.start').toggleClass('active');
 	});
 	$('.shop').ready(function() {
-	    loadContent('content/shop.xhtml');
+	    html = loadContent('content/shop.xhtml');
+	    
+	    $('.main').empty();
+        $( ".main" ).html(html);
 	    $('.active').removeClass('active');
 	    $('.shop').toggleClass('active');
 	    
@@ -28,25 +33,19 @@ $(document).ready(function(e){
 	});
 	
 	$('.projekt').click(function() {
-	    loadContent('content/projekt.xhtml');
+	    html = loadContent('content/projekt.xhtml');
+	    
+	    $('.main').empty();
+        $( ".main" ).html(html);
 	    $('.active').removeClass('active');
 	    $('.projekt').toggleClass('active');
 	});
 
-	$('.warenkorb').click(function() {
-	    loadContent('content/warenkorb.xhtml');
-	    $('.active').removeClass('active');
-	    $('.warenkorb').toggleClass('active');
-	});
-
-	$('.suchen').click(function() {
-	    loadContent('content/suchen.xhtml');
-	    $('.active').removeClass('active');
-	    $('.suchen').toggleClass('active');
-	});
-
 	$('.impressum').click(function() {
-	    loadContent('content/impressum.xhtml');
+	    html = loadContent('content/impressum.xhtml');
+	    
+	    $('.main').empty();
+        $( ".main" ).html(html);
 	    $('.active').removeClass('active');
 	    $('.impressum').toggleClass('active');
 	});
@@ -63,6 +62,7 @@ $(document).ready(function(e){
         
         $('.cart').empty();
         $('.cart').append( cartBlock(cart.getItems()) );
+        $('.modal-page').modal('hide');
     });
     
     $('body').on('click', '.search-btn', function (evt) {
@@ -86,9 +86,13 @@ $(document).ready(function(e){
         var id = $(this).attr('data-id');
         var items = data.getShoes({id: id});
         
-        $('.modal-title').text(items[0].getName());
-        $('.modal-image').html('<img src="'+items[0].getBildUrl()+'" alt="..." />');
-        $('.product-page').modal('show')
+        $('.modal-content').html( singleProductPage(items[0]) );
+        $('.modal-page').modal('show');
+    });
+    
+    $('body').on('click', '.buy-btn', function (evt) {
+        $('.modal-content').html( cartPage(cart.getItems()) );
+        $('.modal-page').modal('show');
 
     });
 });

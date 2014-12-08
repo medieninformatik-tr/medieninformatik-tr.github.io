@@ -39,6 +39,7 @@ Repository.prototype={
 		            	shoe.setMarke( $(this).find('marke').text() );
 		            	shoe.setFarbe( $(this).find('farbe').text() );
 		            	shoe.setBildUrl( $(this).find('bild').text() );
+		            	shoe.setPreis( $(this).find('preis').text() );
 		            	
 		            	data.shoes.push(shoe);
 	            	});
