@@ -3,7 +3,7 @@ function productElement(shoe) {
     
     template = template.replace('{name}', shoe.getName());
     template = template.replace('{url}', shoe.getBildUrl());
-    template = template.replace('{price}', shoe.getPreis());
+    template = template.replace('{price}', shoe.getPreis().toFixed(2));
     template = template.replace(/{id}/g, shoe.getId());
     
     return template;
@@ -27,7 +27,7 @@ function cartBlock(cart) {
     
         html += '<div class="cart-element">';
         html += '<div class="cart-name">'+cart[id].getName()+'</div>';
-        html += '<div class="cart-price">'+cart[id].getPreis()+'&#8364;</div>';
+        html += '<div class="cart-price">'+cart[id].getPreis().toFixed(2)+'&#8364;</div>';
         html += '<div class="cart-delete"><span class="glyphicon glyphicon-remove delete-btn" data-id="'+cart[id].getId()+'" /></div>'
         html += '</div>';
     }
@@ -55,7 +55,7 @@ function singleProductPage(shoe) {
     template = template.replace('{name}', shoe.getName());
     template = template.replace('{url}', shoe.getBildUrl());
     template = template.replace('{description}', 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.');
-    template = template.replace('{price}', shoe.getPreis());
+    template = template.replace('{price}', shoe.getPreis().toFixed(2));
     template = template.replace('{color}', shoe.getFarbe());
     template = template.replace('{size-from}', shoe.getGroesseVon());
     template = template.replace('{size-to}', shoe.getGroesseBis());
@@ -75,7 +75,7 @@ function cartPage(cart) {
     
         html += '<div class="cart-element">';
         html += '<div class="cart-name">'+cart[id].getName()+'</div>';
-        html += '<div class="cart-price">'+cart[id].getPreis()+'&#8364;</div>';
+        html += '<div class="cart-price">'+cart[id].getPreis().toFixed(2)+'&#8364;</div>';
         html += '<div class="cart-delete"><span class="glyphicon glyphicon-remove delete-btn" data-id="'+cart[id].getId()+'" /></div>'
         html += '</div>';
     }
@@ -87,6 +87,12 @@ function cartPage(cart) {
     html += '</div>';
     
     template.find('.cart').append(html);
+    
+    return template;
+}
+
+function thankYouMessage() {
+    var template = $(loadContent('content/danke.xhtml'));
     
     return template;
 }

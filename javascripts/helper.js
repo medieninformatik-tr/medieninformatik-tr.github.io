@@ -12,3 +12,15 @@ function loadContent(path) {
     
     return html;
 }
+
+function isNumberOrEmpty(number) {
+    if(number == "") {
+        return 1;
+    }
+    else if (number.match(/^-?[0-9]*[.,]{0,1}[0-9]+$/)) {
+        return 1;
+    }
+    else {
+        return 0;
+    }
+}

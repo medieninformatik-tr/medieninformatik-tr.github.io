@@ -14,13 +14,18 @@
                 </div>
                 <!-- Hier werden die Einkäufe eingefügt -->
             </div>
-            <button type="button" class="btn btn-primary buy-btn">Kaufen</button>
+            <button type="button" class="btn btn-primary buy-btn">Bestellen</button>
             <h4><span class="glyphicon glyphicon-tags"/> Kategorien</h4>
             <div class="categories">
                 <!-- Hier werden die Kategorien eingefügt -->
             </div>
-            <h4><span class="glyphicon glyphicon-euro"/> Preis</h4> von: <input class="price"
-                type="text"/> &#8364; bis: <input class="price" type="text"/> &#8364; </aside>
+            <h4><span class="glyphicon glyphicon-euro"/> Preis</h4> von: <input class="price price-from-input"
+                type="text"/> &#8364; bis: <input class="price price-to-input" type="text"/> &#8364; 
+            <div class="btn-group" role="group" aria-label="...">
+                <button type="button" class="btn btn-primary search-price-btn">Filter</button>
+                <button type="button" class="btn btn-default reset-price-btn">Zur&#252;cksetzen</button>
+            </div>
+        </aside>
 
         <main class="col-md-9 col-md-pull-3">
             <div class="row products">

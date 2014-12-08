@@ -39,7 +39,7 @@ Repository.prototype={
 		            	shoe.setMarke( $(this).find('marke').text() );
 		            	shoe.setFarbe( $(this).find('farbe').text() );
 		            	shoe.setBildUrl( $(this).find('bild').text() );
-		            	shoe.setPreis( $(this).find('preis').text() );
+		            	shoe.setPreis( parseFloat($(this).find('preis').text()) );
 		            	
 		            	data.shoes.push(shoe);
 	            	});
@@ -47,10 +47,6 @@ Repository.prototype={
             },
             dataType:"xml"
         }); 
-    },
-    
-    getAll: function() {
-	    return this.data.shoes;
     },
     
     getCategories: function () {
@@ -62,22 +58,43 @@ Repository.prototype={
         if(parameters) {
 	       for (var s in this.data.shoes) {
 	           var shoe = this.data.shoes[s];
-	           if(parameters.category && parameters.category == shoe.getKategorie()) {
+	           
+	           if ( parameters.hasOwnProperty('category') && parameters.category == shoe.getKategorie() ) {
 	               res.push(shoe);  
 	           }
 	           
-	           if(parameters.id && parameters.id == shoe.getId()) {
+	           if ( parameters.hasOwnProperty('id') && parameters.id == shoe.getId() ) {
 	               res.push(shoe);  
 	           }
 	           
-	           if(parameters.term) {
+	           if ( parameters.hasOwnProperty('term') ) {
 	               var regex = new RegExp(parameters.term, "i");
 	               
 	               if(shoe.getName().search(regex) > -1) {
 	                   res.push(shoe); 
 	               }
 	           }
+	           
+	           if ( parameters.hasOwnProperty('pricefrom') || parameters.hasOwnProperty('pricefrom') ) {
+	               if (parameters.pricefrom && parameters.priceto && shoe.getPreis() > parameters.pricefrom && shoe.getPreis() < parameters.priceto ) {
+	                   res.push(shoe);  
+	               }
+	               else if (parameters.pricefrom && !parameters.priceto && shoe.getPreis() > parameters.pricefrom) {
+	                   res.push(shoe);  
+	               }
+	               else if (parameters.priceto && !parameters.pricefrom && shoe.getPreis() < parameters.priceto) {
+	                   res.push(shoe);  
+	               }
+	               else if (!parameters.pricefrom && !parameters.priceto) {
+	                   res.push(shoe);
+	               }    
+	           }
+	           
+	           
 	       }
+	    }
+	    else {
+	        res = this.data.shoes;
 	    }
 	    return res;
     }

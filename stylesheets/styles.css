@@ -92,6 +92,10 @@ aside .category.active {
     color: #333;
 }
 
+aside .btn-group {
+    margin: 10px 0 20px 0;
+}
+
 .shoe-item .picture {
     text-align: center;
     min-height: 140px;
@@ -125,4 +129,8 @@ aside .category.active {
 
 .modal-image img {
     max-height: 150px;
+}
+
+.red-border {
+    border: 1px solid red;
 }

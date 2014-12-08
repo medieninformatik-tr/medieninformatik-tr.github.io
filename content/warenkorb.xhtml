@@ -1,4 +1,4 @@
-<div>
+<form action="" name="bestellung">
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">
             <span aria-hidden="true" class="glyphicon glyphicon-remove"/>
@@ -6,11 +6,23 @@
         <h4 class="modal-title"><span class="glyphicon glyphicon-shopping-cart"/> Warenkorb</h4>
     </div>
     <div class="modal-body">
-        <div class="cart"> 
+        <div class="cart">
             <!-- Hier werden die Warenkorbelemente eingefügt -->
+        </div>
+        <div class="form">
+            <h4>Bestelldaten</h4>
+            <div class="input-group input-group-sm">
+                <span class="input-group-addon">Adresse</span>
+                <input type="text" name="vorname" class="form-control" placeholder="Vorname"/>
+                <input type="text" name="nachname" class="form-control" placeholder="Nachname"/>
+                <input type="text" name="strasse" class="form-control" placeholder="Stra&#223;e"/>
+                <input type="text" name="nr" class="form-control" placeholder="Hausnummer"/>
+                <input type="text" name="plz" class="form-control" placeholder="Postleitzahl"/>
+                <input type="text" name="ort" class="form-control" placeholder="Ort"/>
+            </div>
         </div>
     </div>
     <div class="modal-footer">
-        <button type="button" class="btn btn-primary buyend-btn">Kaufen</button>
+        <input type="submit" class="btn btn-primary buyend-btn" value="Kaufen"/>
     </div>
-</div>
+</form>
