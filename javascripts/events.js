@@ -79,6 +79,10 @@ $(document).ready(function(e){
 	    
         var term = $('.search-input').val();
         
+        // Erstellt die Kategorien
+	    var categories = data.getCategories();
+	    $('.categories').append( categoriesBlock(categories) );
+        
         appendItems(data.getShoes({term: term}));
     });
     
