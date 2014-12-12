@@ -16,7 +16,7 @@ $(document).ready(function(e){
 	    $('.active').removeClass('active');
 	    $('.start').toggleClass('active');
 	});
-	$('.shop').ready(function() {
+	$('.shop').click(function() {
 	    html = loadContent('content/shop.xhtml');
 	    
 	    $('.main').empty();
