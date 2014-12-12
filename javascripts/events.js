@@ -99,6 +99,7 @@ $(document).ready(function(e){
     $('body').on('click', '.buy-btn', function (evt) {
         $('.modal-content').html( cartPage(cart.getItems()) );
         $('.modal-page').modal('show');
+        console.log(cart);
     });
     
     $('body').on('click', '.search-price-btn', function (evt) {
@@ -132,7 +133,7 @@ $(document).ready(function(e){
     $('body').on('click', '.reset-price-btn', function (evt) {
         $('.price-from-input').val('');
         $('.price-to-input').val('');
-        
+       
         appendItems( data.getShoes() );
     });
     
