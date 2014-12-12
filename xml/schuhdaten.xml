@@ -10,7 +10,7 @@
             <artikel id="sport1">
                 <name>Speed Run</name>
                 <kurzbeschreibung>Richtig toller Schuh!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s1.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -22,7 +22,7 @@
             <artikel id="sport2">
                 <name>Light Blue</name>
                 <kurzbeschreibung>Fantastischer Schuh!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s2.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -34,7 +34,7 @@
             <artikel id="sport3">
                 <name>Speed Run</name>
                 <kurzbeschreibung>The Best You Can Get!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s3.jpg</bild>
                 <zielgruppe>Kinder</zielgruppe>
                 <groesse_von>28</groesse_von>
@@ -46,7 +46,7 @@
             <artikel id="sport4">
                 <name>Quick Speed</name>
                 <kurzbeschreibung>Nur das Beste für Ihre Füße!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s4.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -58,7 +58,7 @@
             <artikel id="sport5">
                 <name>Cyan Flash</name>
                 <kurzbeschreibung>Der Marathon kann kommen!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s5.jpeg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -70,7 +70,7 @@
             <artikel id="sport6">
                 <name>Gowak</name>
                 <kurzbeschreibung>Absoluter Luxus!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s6.jpg</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -82,7 +82,7 @@
             <artikel id="sport7">
                 <name>Lightgear</name>
                 <kurzbeschreibung>Richtig toller Schuh!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s7.jpg</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -94,7 +94,7 @@
             <artikel id="sport8">
                 <name>Mette</name>
                 <kurzbeschreibung>Fantastischer Schuh!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s8.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -106,7 +106,7 @@
             <artikel id="sport9">
                 <name>Flex Sole</name>
                 <kurzbeschreibung>The best you can get!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s9.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -118,7 +118,7 @@
             <artikel id="sport10">
                 <name>Green Lantern</name>
                 <kurzbeschreibung>Nur das Beste für Ihre Füße!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s10.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -130,7 +130,7 @@
             <artikel id="sport11">
                 <name>Black and White</name>
                 <kurzbeschreibung>Der Marathon kann kommen!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s11.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -142,7 +142,7 @@
             <artikel id="sport12">
                 <name>Little Runner</name>
                 <kurzbeschreibung>Absoluter Luxus!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s12.png</bild>
                 <zielgruppe>Kinder</zielgruppe>
                 <groesse_von>28</groesse_von>
@@ -154,7 +154,7 @@
             <artikel id="sport13">
                 <name>Gripster</name>
                 <kurzbeschreibung>Toller Schuh!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s13.jpg</bild>
                 <zielgruppe>Kinder</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -166,7 +166,7 @@
             <artikel id="sport14">
                 <name>Little Princess</name>
                 <kurzbeschreibung>Fantastischer Schuh!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s14.jpg</bild>
                 <zielgruppe>Kinder</zielgruppe>
                 <groesse_von>28</groesse_von>
@@ -178,7 +178,7 @@
             <artikel id="sport15">
                 <name>Little Prince</name>
                 <kurzbeschreibung>The best you can get!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s15.jpg</bild>
                 <zielgruppe>Kinder</zielgruppe>
                 <groesse_von>28</groesse_von>
@@ -190,7 +190,7 @@
             <artikel id="sport16">
                 <name>Sonic Blade</name>
                 <kurzbeschreibung>Nur das Beste für Ihre Füße!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s16.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -202,7 +202,7 @@
             <artikel id="sport17">
                 <name>Hyperfast</name>
                 <kurzbeschreibung>Der Marathon kann kommen!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s17.jpg</bild>
                 <zielgruppe>Kinder</zielgruppe>
                 <groesse_von>28</groesse_von>
@@ -214,7 +214,7 @@
             <artikel id="sport18">
                 <name>Free Trainer</name>
                 <kurzbeschreibung>Absoluter Luxus!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s18.jpg</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -226,7 +226,7 @@
             <artikel id="sport19">
                 <name>Nikos</name>
                 <kurzbeschreibung>Toller Schuh!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s19.jpg</bild>
                 <zielgruppe>Kinder</zielgruppe>
                 <groesse_von>28</groesse_von>
@@ -238,7 +238,7 @@
             <artikel id="sport20">
                 <name>Air Max</name>
                 <kurzbeschreibung>Fantastischer Schuh!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s20.jpg</bild>
                 <zielgruppe>Kinder</zielgruppe>
                 <groesse_von>28</groesse_von>
@@ -250,7 +250,7 @@
             <artikel id="sport21">
                 <kurzbeschreibung>The best you can get!</kurzbeschreibung>
                 <name>Double Speed</name>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s21.jpg</bild>
                 <zielgruppe>Kinder</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -262,7 +262,7 @@
             <artikel id="sport22">
                 <name>Formlite</name>
                 <kurzbeschreibung>Nur das Beste für Ihre Füße!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s22.jpg</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -274,7 +274,7 @@
             <artikel id="sport23">
                 <name>Street Dance</name>
                 <kurzbeschreibung>Der Marathon kann kommen!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s23.jpg</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -286,7 +286,7 @@
             <artikel id="sport24">
                 <name>Fluid Fit</name>
                 <kurzbeschreibung>Absoluter Luxus!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/sport/s24.jpg</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -300,7 +300,7 @@
             <artikel id="lauf1">
                 <name>Tubes Run</name>
                 <kurzbeschreibung>Keep on running!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/lauf/l1.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -308,11 +308,12 @@
                 <marke>Adidas</marke>
                 <farbe>Schwarz</farbe>
                 <preis>119.90</preis>
+                <daempfung>1</daempfung>
             </artikel>
             <artikel id="lauf2">
                 <name>Minimus Vibram</name>
                 <kurzbeschreibung>Täglich einen Marathon!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/lauf/l2.png</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -320,11 +321,12 @@
                 <marke>Skechers</marke>
                 <farbe>Weiß</farbe>
                 <preis>79.90</preis>
+                <daempfung>2</daempfung>
             </artikel>
             <artikel id="lauf3">
                 <name>Zeet</name>
                 <kurzbeschreibung>Nur das Beste für Ihre Füße!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/lauf/l3.jpg</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -332,11 +334,12 @@
                 <marke>Adidas</marke>
                 <farbe>Pink</farbe>
                 <preis>69.90</preis>
+                <daempfung>3</daempfung>
             </artikel>
             <artikel id="lauf4">
                 <name>Color Splash</name>
                 <kurzbeschreibung>Toller Schuh!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/lauf/l4.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -344,11 +347,12 @@
                 <marke>Asics</marke>
                 <farbe>Bunt</farbe>
                 <preis>119.90</preis>
+                <daempfung>1</daempfung>
             </artikel>
             <artikel id="lauf5">
                 <name>Climacool</name>
                 <kurzbeschreibung>Fantastischer Schuh!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/lauf/l5.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -356,11 +360,12 @@
                 <marke>Adidas</marke>
                 <farbe>Blau</farbe>
                 <preis>79.90</preis>
+                <daempfung>2</daempfung>
             </artikel>
             <artikel id="lauf6">
                 <name>Gel Noosa</name>
                 <kurzbeschreibung>The best you can get!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/lauf/l6.jpg</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -368,11 +373,12 @@
                 <marke>Asics</marke>
                 <farbe>Bunt</farbe>
                 <preis>69.90</preis>
+                <daempfung>3</daempfung>
             </artikel>
             <artikel id="lauf7">
                 <name>Green Run</name>
                 <kurzbeschreibung>Nur das Beste für Ihre Füße!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/lauf/l7.jpg</bild>
                 <zielgruppe>Kinder</zielgruppe>
                 <groesse_von>28</groesse_von>
@@ -380,11 +386,12 @@
                 <marke>Asics</marke>
                 <farbe>Grün</farbe>
                 <preis>39.90</preis>
+                <daempfung>1</daempfung>
             </artikel>
             <artikel id="lauf8">
                 <name>Ghost</name>
                 <kurzbeschreibung>Auf in die Wildnis!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/lauf/l8.jpg</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -392,11 +399,12 @@
                 <marke>Nike</marke>
                 <farbe>Blau</farbe>
                 <preis>49.90</preis>
+                <daempfung>2</daempfung>
             </artikel>
             <artikel id="lauf9">
-                <name>Orange Is The New Black</name>
+                <name>Orange Black</name>
                 <kurzbeschreibung>Absoluter Luxus!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/lauf/l9.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -404,11 +412,12 @@
                 <marke>Asics</marke>
                 <farbe>Schwarz</farbe>
                 <preis>129.90</preis>
+                <daempfung>3</daempfung>
             </artikel>
             <artikel id="lauf10">
                 <name>Ultra Pink</name>
                 <kurzbeschreibung>Marathon? Kein Problem!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/lauf/l10.jpg</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -416,11 +425,12 @@
                 <marke>Nike</marke>
                 <farbe>Pink</farbe>
                 <preis>49.90</preis>
+                <daempfung>1</daempfung>
             </artikel>
             <artikel id="lauf11">
                 <name>New Balance</name>
                 <kurzbeschreibung>Lauf, Forest, lauf!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/lauf/l11.jpg</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -428,11 +438,12 @@
                 <marke>Skechers</marke>
                 <farbe>Blau</farbe>
                 <preis>39.90</preis>
+                <daempfung>2</daempfung>
             </artikel>
             <artikel id="lauf12">
                 <name>Gobionic Trail</name>
                 <kurzbeschreibung>Tollster Laufschuh wo gibt in Galaxie!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/lauf/l12.jpg</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -440,13 +451,14 @@
                 <marke>Skechers</marke>
                 <farbe>Rot</farbe>
                 <preis>39.90</preis>
+                <daempfung>3</daempfung>
             </artikel>
         </kategorie>
         <kategorie id="3">
             <artikel id="trekk1">
                 <name>Hitchhike</name>
                 <kurzbeschreibung>Toller Schuh!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/trekk/t1.jpg</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -458,7 +470,7 @@
             <artikel id="trekk2">
                 <name>Vibram Trek</name>
                 <kurzbeschreibung>Fantastischer Schuh!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/trekk/t2.jpg</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -470,7 +482,7 @@
             <artikel id="trekk3">
                 <name>Blomon</name>
                 <kurzbeschreibung>The best you can get!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/trekk/t3.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -482,7 +494,7 @@
             <artikel id="trekk4">
                 <name>Aquamax Vibram</name>
                 <kurzbeschreibung>Nur das Beste für Ihre Füße!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/trekk/t4.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -493,7 +505,7 @@
             </artikel>
             <artikel id="trekk5">
                 <name>Lowa</name>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <kurzbeschreibung>Auf in die Wildnis!</kurzbeschreibung>
                 <bild>images/schuhdaten/trekk/t5.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
@@ -506,7 +518,7 @@
             <artikel id="trekk6">
                 <name>Snoman</name>
                 <kurzbeschreibung>Absoluter Luxus!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/trekk/t6.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -518,7 +530,7 @@
             <artikel id="trekk7">
                 <name>Nebraska</name>
                 <kurzbeschreibung>Toller Schuh!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/trekk/t7.jpg</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -530,7 +542,7 @@
             <artikel id="trekk8">
                 <name>Antracite</name>
                 <kurzbeschreibung>Fantastischer Schuh!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/trekk/t8.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -542,7 +554,7 @@
             <artikel id="trekk9">
                 <name>Barcelona</name>
                 <kurzbeschreibung>The best you can get!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/trekk/t9.jpg</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -554,7 +566,7 @@
             <artikel id="trekk10">
                 <name>Lowa Ultra</name>
                 <kurzbeschreibung>Nur das Beste für Ihre Füße!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/trekk/t10.jpeg</bild>
                 <zielgruppe>Damen</zielgruppe>
                 <groesse_von>35</groesse_von>
@@ -566,7 +578,7 @@
             <artikel id="trekk11">
                 <name>Brown Trek</name>
                 <kurzbeschreibung>Auf in die Wildnis!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/trekk/t11.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -578,7 +590,7 @@
             <artikel id="trekk12">
                 <name>Salomon</name>
                 <kurzbeschreibung>Absoluter Luxus!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/trekk/t12.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
@@ -590,7 +602,7 @@
             <artikel id="trekk13">
                  <name>Scarpa</name>
                 <kurzbeschreibung>Mehr geht nun wirklich nicht!</kurzbeschreibung>
-                <beschreibung></beschreibung>
+                <beschreibung>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</beschreibung>
                 <bild>images/schuhdaten/trekk/t13.jpg</bild>
                 <zielgruppe>Herren</zielgruppe>
                 <groesse_von>40</groesse_von>
