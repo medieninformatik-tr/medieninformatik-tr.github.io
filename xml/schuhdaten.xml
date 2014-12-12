@@ -308,6 +308,7 @@
                 <marke>Adidas</marke>
                 <farbe>Schwarz</farbe>
                 <preis>119.90</preis>
+                <daempfung>1</daempfung>
             </artikel>
             <artikel id="lauf2">
                 <name>Minimus Vibram</name>
@@ -320,6 +321,7 @@
                 <marke>Skechers</marke>
                 <farbe>Weiß</farbe>
                 <preis>79.90</preis>
+                <daempfung>2</daempfung>
             </artikel>
             <artikel id="lauf3">
                 <name>Zeet</name>
@@ -332,6 +334,7 @@
                 <marke>Adidas</marke>
                 <farbe>Pink</farbe>
                 <preis>69.90</preis>
+                <daempfung>3</daempfung>
             </artikel>
             <artikel id="lauf4">
                 <name>Color Splash</name>
@@ -344,6 +347,7 @@
                 <marke>Asics</marke>
                 <farbe>Bunt</farbe>
                 <preis>119.90</preis>
+                <daempfung>1</daempfung>
             </artikel>
             <artikel id="lauf5">
                 <name>Climacool</name>
@@ -356,6 +360,7 @@
                 <marke>Adidas</marke>
                 <farbe>Blau</farbe>
                 <preis>79.90</preis>
+                <daempfung>2</daempfung>
             </artikel>
             <artikel id="lauf6">
                 <name>Gel Noosa</name>
@@ -368,6 +373,7 @@
                 <marke>Asics</marke>
                 <farbe>Bunt</farbe>
                 <preis>69.90</preis>
+                <daempfung>3</daempfung>
             </artikel>
             <artikel id="lauf7">
                 <name>Green Run</name>
@@ -380,6 +386,7 @@
                 <marke>Asics</marke>
                 <farbe>Grün</farbe>
                 <preis>39.90</preis>
+                <daempfung>1</daempfung>
             </artikel>
             <artikel id="lauf8">
                 <name>Ghost</name>
@@ -392,6 +399,7 @@
                 <marke>Nike</marke>
                 <farbe>Blau</farbe>
                 <preis>49.90</preis>
+                <daempfung>2</daempfung>
             </artikel>
             <artikel id="lauf9">
                 <name>Orange Is The New Black</name>
@@ -404,6 +412,7 @@
                 <marke>Asics</marke>
                 <farbe>Schwarz</farbe>
                 <preis>129.90</preis>
+                <daempfung>3</daempfung>
             </artikel>
             <artikel id="lauf10">
                 <name>Ultra Pink</name>
@@ -416,6 +425,7 @@
                 <marke>Nike</marke>
                 <farbe>Pink</farbe>
                 <preis>49.90</preis>
+                <daempfung>1</daempfung>
             </artikel>
             <artikel id="lauf11">
                 <name>New Balance</name>
@@ -428,6 +438,7 @@
                 <marke>Skechers</marke>
                 <farbe>Blau</farbe>
                 <preis>39.90</preis>
+                <daempfung>2</daempfung>
             </artikel>
             <artikel id="lauf12">
                 <name>Gobionic Trail</name>
@@ -440,6 +451,7 @@
                 <marke>Skechers</marke>
                 <farbe>Rot</farbe>
                 <preis>39.90</preis>
+                <daempfung>3</daempfung>
             </artikel>
         </kategorie>
         <kategorie id="3">
