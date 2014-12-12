@@ -7,6 +7,10 @@ $(document).ready(function(e){
 
 	// Navigationsevents
 	loadContent('content/start.xhtml');
+	$('.main').empty();
+    $( ".main" ).html(html);
+	$('.active').removeClass('active');
+	$('.start').toggleClass('active');
 	
 	$('.start').click(function() {
 	    html = loadContent('content/start.xhtml');
