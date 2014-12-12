@@ -43,6 +43,7 @@ header .row {
 
 .navbar li.active a {
     background: none !important;
+    border-bottom: 2px solid #fff;
 }
 
 .navbar-toggle span {
