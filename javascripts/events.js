@@ -1,17 +1,20 @@
 $(document).ready(function(e){
 	
+	// Initialisiert ein Repository für die Schuhdaten
 	var data = new Repository('xml/schuhdaten.xml');
 	data.init();
 	
+	// Initialisiert ein leeres Warenkorb-Objekt
 	var cart = new Cart(data);
 
-	// Navigationsevents
+    // Läd die Startseite
 	loadContent('content/start.xhtml');
 	$('.main').empty();
     $( ".main" ).html(html);
 	$('.active').removeClass('active');
 	$('.start').toggleClass('active');
 	
+	// Naviation: Startseite
 	$('.start').click(function() {
 	    html = loadContent('content/start.xhtml');
 	    
@@ -20,6 +23,8 @@ $(document).ready(function(e){
 	    $('.active').removeClass('active');
 	    $('.start').toggleClass('active');
 	});
+	
+	// Navigation: Shop
 	$('.shop').click(function() {
 	    html = loadContent('content/shop.xhtml');
 	    
@@ -36,6 +41,7 @@ $(document).ready(function(e){
 	    appendItems( data.getShoes() );
 	});
 	
+	// Navigation: Projekt
 	$('.projekt').click(function() {
 	    html = loadContent('content/projekt.xhtml');
 	    
@@ -44,7 +50,8 @@ $(document).ready(function(e){
 	    $('.active').removeClass('active');
 	    $('.projekt').toggleClass('active');
 	});
-
+    
+    // Navigation: Impressum
 	$('.impressum').click(function() {
 	    html = loadContent('content/impressum.xhtml');
 	    
@@ -54,6 +61,7 @@ $(document).ready(function(e){
 	    $('.impressum').toggleClass('active');
 	});
 	
+	// Filter: Kategorien
 	$('body').on('click', '.category', function (evt) {
         $('.category').removeClass('active');
         $(this).toggleClass('active');
@@ -61,6 +69,7 @@ $(document).ready(function(e){
         appendItems( data.getShoes( {category: $(this).attr("data-id")} ) );
     });
     
+    // Button: In den Warenkorb legen
     $('body').on('click', '.tocart', function (evt) {
         cart.addItem($(this).attr('data-id'));
         
@@ -69,6 +78,7 @@ $(document).ready(function(e){
         $('.modal-page').modal('hide');
     });
     
+    // Button: Suche oben
     $('body').on('click', '.search-btn', function (evt) {
         html = loadContent('content/shop.xhtml');
 	    
@@ -86,6 +96,7 @@ $(document).ready(function(e){
         appendItems(data.getShoes({term: term}));
     });
     
+    // Button: Element im Warenkorb löschen
     $('body').on('click', '.delete-btn', function (evt) {
         cart.deleteItem($(this).attr('data-id'));
         
@@ -93,6 +104,7 @@ $(document).ready(function(e){
         $('.cart').append( cartBlock(cart.getItems()) );
     });
     
+    // Button: Produktseite öffnen
     $('body').on('click', '.toproduct', function (evt) {
         var id = $(this).attr('data-id');
         var items = data.getShoes({id: id});
@@ -104,12 +116,14 @@ $(document).ready(function(e){
         $('.modal-page').modal('show');
     });
     
+    // Button: Warenkorbseite öffnen
     $('body').on('click', '.buy-btn', function (evt) {
         $('.modal-content').html( cartPage(cart.getItems()) );
         $('.modal-page').modal('show');
         console.log(cart);
     });
     
+    // Filter: Nach Preisen filtern
     $('body').on('click', '.search-price-btn', function (evt) {
         var priceFrom = parseFloat( $('.price-from-input').val().replace(',', '.') );
         var priceTo = parseFloat( $('.price-to-input').val().replace(',', '.') );
@@ -138,15 +152,15 @@ $(document).ready(function(e){
         }
     });
     
+    // Button: Preisfilter zurücksetzen
     $('body').on('click', '.reset-price-btn', function (evt) {
         $('.price-from-input').val('');
         $('.price-to-input').val('');
        
         appendItems( data.getShoes() );
     });
-    
-    
-    
+
+    // Formular: Generiert Email beim Versenden des Formulars    
     $('body').on('submit', "form[name='bestellung']", function (evt) {
         
         var firstName = $(this).find("input[name='vorname']").val();

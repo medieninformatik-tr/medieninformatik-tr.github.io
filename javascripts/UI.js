@@ -1,3 +1,8 @@
+/* ---------------------------------------------------------------------- 
+Function: productElement
+Parameter: shoeObject
+Return: htmlString
+---------------------------------------------------------------------- */
 function productElement(shoe) {
     var template = loadContent('content/produktelement.xhtml');
     
@@ -10,6 +15,11 @@ function productElement(shoe) {
     return template;
 }
 
+/* ---------------------------------------------------------------------- 
+Function: categoriesBlock
+Parameter: categories[]
+Return: htmlString
+---------------------------------------------------------------------- */
 function categoriesBlock(categories) {
     var html = "";
     
@@ -42,6 +52,11 @@ function cartBlock(cart) {
     return html;
 }
 
+/* ---------------------------------------------------------------------- 
+Function: appendItems
+Parameter: shoeObjects[]
+Return: none
+---------------------------------------------------------------------- */
 function appendItems(items) {
     $('.products').empty();
         
@@ -50,6 +65,11 @@ function appendItems(items) {
 	});
 }
 
+/* ---------------------------------------------------------------------- 
+Function: singleProductPage
+Parameter: shoeObject
+Return: htmlString
+---------------------------------------------------------------------- */
 function singleProductPage(shoe) {
     var template = loadContent('content/produktseite.xhtml');
     
@@ -73,6 +93,11 @@ function singleProductPage(shoe) {
     return template;
 }
 
+/* ---------------------------------------------------------------------- 
+Function: cartPage
+Parameter: cart[]
+Return: htmlString
+---------------------------------------------------------------------- */
 function cartPage(cart) {
     var template = $(loadContent('content/warenkorb.xhtml'));
     
@@ -100,6 +125,11 @@ function cartPage(cart) {
     return template;
 }
 
+/* ---------------------------------------------------------------------- 
+Function: thankYouMessage
+Parameter: none
+Return: htmlString
+---------------------------------------------------------------------- */
 function thankYouMessage() {
     var template = $(loadContent('content/danke.xhtml'));
     

@@ -6,13 +6,23 @@ function Cart(repository){
 }
 
 Cart.prototype={
-    methods: ["getName","setName"],
-    
+    methods: ["addItem","deleteItem", "getItems"],
+    /* ---------------------------------------------------------------------- 
+    Methode: addItem
+    Parameter: shoeId
+    Return: none
+    ---------------------------------------------------------------------- */
     addItem: function(id) {
 	    items = this.repository.getShoes({id: id});
 	    
 	    this.items = this.items.concat(items);
     },
+    
+    /* ---------------------------------------------------------------------- 
+    Methode: deleteItem
+    Parameter: shoeId
+    Return: none
+    ---------------------------------------------------------------------- */
     deleteItem: function(id) {
 	    var newitems = [];
 	    for(var i in this.items) {
@@ -23,7 +33,13 @@ Cart.prototype={
 	    
 	    this.items = newitems;
     },
-    getItems: function(id) {
+    
+    /* ---------------------------------------------------------------------- 
+    Methode: getItems
+    Parameter: none
+    Return: cartItems[]
+    ---------------------------------------------------------------------- */
+    getItems: function() {
 	    return this.items;
     }
 }

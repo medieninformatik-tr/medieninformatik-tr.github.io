@@ -9,8 +9,13 @@ function Repository(xmlPath){
 }
 
 Repository.prototype={
-    methods: ["getName","setName"],
+    methods: ["init","getCategories", "getShoes"],
     
+    /* ---------------------------------------------------------------------- 
+    Methode: init
+    Parameter: none
+    Return: none    
+    ---------------------------------------------------------------------- */
     init: function() {
 	    var data = this.data;
 	    
@@ -18,16 +23,19 @@ Repository.prototype={
 	        async:false,
         	url:this.xmlPath,
             success: function(xml){
+                // Sucht die Kategorien in den XML-Daten
             	$(xml).find('schuhkategorien').find('kategorie').each(function() {
 	            	if ($(this).attr('id') && $(this).attr('name')) {
 	            	    data.categories[ $(this).attr('id') ] = $(this).attr('name');
 	            	}
             	});
             	
+            	// Sucht die Artikel in den XML-Daten
             	$(xml).find('schuhkatalog').find('kategorie').each(function() {
 	            	var categoryId = $(this).attr('id');
 	            	
 	            	$(this).find('artikel').each(function() {
+		            	// Erstellt entweder ein Sportschuh- oder Laufschuh-Objekt
 		            	if (data.categories[categoryId] == "Laufschuhe") {
 		            	    var shoe = new Laufschuh();
 		            	        shoe.setDaempfung("1");
@@ -36,6 +44,7 @@ Repository.prototype={
 		            	    var shoe = new Sportschuh();    
 		            	}
 		            	
+		            	// Sucht die Artikelfelder und schreibt sie in das Schuh-Objekt
 		            	shoe.setId( $(this).attr('id') );
 		            	shoe.setName( $(this).find('name').text() );
 		            	shoe.setKurzbeschreibung( $(this).find('kurzbeschreibung').text() );
@@ -57,10 +66,20 @@ Repository.prototype={
         }); 
     },
     
+    /* ---------------------------------------------------------------------- 
+    Methode: getCategories
+    Parameter: none
+    Return: categories[]
+    ---------------------------------------------------------------------- */
     getCategories: function () {
 	    return this.data.categories;
     },
     
+    /* ---------------------------------------------------------------------- 
+    Methode: getShoes
+    Parameter: searchParameters{}
+    Return: shoeObjects[]
+    ---------------------------------------------------------------------- */
     getShoes: function (parameters) {
         var res = [];
         if(parameters) {
@@ -97,8 +116,6 @@ Repository.prototype={
 	                   res.push(shoe);
 	               }    
 	           }
-	           
-	           
 	       }
 	    }
 	    else {

@@ -15,7 +15,7 @@ function Sportschuh() {
 }
 
 Sportschuh.prototype = {
-    methods: ["getId","setId", "getName","setName", "getKategorie", "setKategorie", "getZielgruppe","setZielgruppe", "getGroesseVon","setGroesseVon", "getGroesseBis","setGroesseBis", "getMarke","setMarke", "getFarbe","setFarbe"],
+    methods: ["getId","setId", "getName","setName","getKurzbeschreibung","setKurzbeschreibung","getBeschreibung","setBeschreibung", "getKategorie", "setKategorie", "getZielgruppe","setZielgruppe", "getGroesseVon","setGroesseVon", "getGroesseBis","setGroesseBis", "getMarke","setMarke", "getFarbe","setFarbe"],
     
     getId: function (){
         return this.id;
