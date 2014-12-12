@@ -62,6 +62,7 @@ function singleProductPage(shoe) {
     template = template.replace('{size-to}', shoe.getGroesseBis());
     template = template.replace(/{id}/g, shoe.getId());
     
+    // Bei Objekten der Klasse Laufschuh wird die Dämpfung ausgegeben.
     if (shoe.klasse == "Laufschuh") {
         template = template.replace('{damping}', shoe.getDaempfung());
     }

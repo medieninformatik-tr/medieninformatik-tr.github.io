@@ -90,6 +90,9 @@ $(document).ready(function(e){
         var items = data.getShoes({id: id});
         
         $('.modal-content').html( singleProductPage(items[0]) );
+        
+        console.log(items[0]);
+        
         $('.modal-page').modal('show');
     });
     
