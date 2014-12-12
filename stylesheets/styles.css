@@ -14,6 +14,18 @@ header .row {
 	margin-top: 20px;
 }
 
+.logo img {
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo img:hover {
+    top: -2px;
+}
+
 .navbar {
     border: 0 !important;
     background: none;
@@ -21,6 +33,12 @@ header .row {
 
 .navbar a {
     color: #fff !important;
+    box-sizing: border-box;
+    padding-bottom: 10px !important;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid #fff;
 }
 
 .navbar li.active a {
@@ -108,6 +126,15 @@ aside .btn-group {
 
 .shoe-item {
     padding-top: 20px;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.shoe-item:hover {
+    top: -4px;
 }
 
 .shoe-item:hover {
