@@ -2,6 +2,7 @@ function productElement(shoe) {
     var template = loadContent('content/produktelement.xhtml');
     
     template = template.replace('{name}', shoe.getName());
+    template = template.replace('{description}', shoe.getKurzbeschreibung());
     template = template.replace('{url}', shoe.getBildUrl());
     template = template.replace('{price}', shoe.getPreis().toFixed(2));
     template = template.replace(/{id}/g, shoe.getId());
@@ -54,12 +55,19 @@ function singleProductPage(shoe) {
     
     template = template.replace('{name}', shoe.getName());
     template = template.replace('{url}', shoe.getBildUrl());
-    template = template.replace('{description}', 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.');
+    template = template.replace('{description}', shoe.getBeschreibung());
     template = template.replace('{price}', shoe.getPreis().toFixed(2));
     template = template.replace('{color}', shoe.getFarbe());
     template = template.replace('{size-from}', shoe.getGroesseVon());
     template = template.replace('{size-to}', shoe.getGroesseBis());
     template = template.replace(/{id}/g, shoe.getId());
+    
+    if (shoe.klasse == "Laufschuh") {
+        template = template.replace('{damping}', shoe.getDaempfung());
+    }
+    else {
+        template = template.replace('{damping}', 'Keine');
+    }
     
     return template;
 }

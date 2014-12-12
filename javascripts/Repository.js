@@ -28,10 +28,18 @@ Repository.prototype={
 	            	var categoryId = $(this).attr('id');
 	            	
 	            	$(this).find('artikel').each(function() {
-		            	var shoe = new Sportschuh();
+		            	if (data.categories[categoryId] == "Laufschuhe") {
+		            	    var shoe = new Laufschuh();
+		            	        shoe.setDaempfung("1");
+		            	}
+		            	else {
+		            	    var shoe = new Sportschuh();    
+		            	}
 		            	
 		            	shoe.setId( $(this).attr('id') );
 		            	shoe.setName( $(this).find('name').text() );
+		            	shoe.setKurzbeschreibung( $(this).find('kurzbeschreibung').text() );
+		            	shoe.setBeschreibung( $(this).find('beschreibung').text() );
 		            	shoe.setKategorie( categoryId );
 		            	shoe.setZielgruppe( $(this).find('zielgruppe').text() );
 		            	shoe.setGroesseVon( $(this).find('groesse_von').text() );

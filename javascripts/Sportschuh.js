@@ -1,6 +1,9 @@
 function Sportschuh() {
+    this.klasse="Sportschuh";
 	this.id;
 	this.name;
+	this.kurzbeschreibung;
+	this.beschreibung;
 	this.kategorie;
 	this.zielgruppe;
 	this.groesse_von;
@@ -25,6 +28,18 @@ Sportschuh.prototype = {
     },
     setName: function (name){
      	this.name = name;
+    },
+    getKurzbeschreibung: function () {
+        return this.kurzbeschreibung;
+    },
+    setKurzbeschreibung: function (kurzbeschreibung){
+     	this.kurzbeschreibung = kurzbeschreibung;
+    },
+    getBeschreibung: function () {
+        return this.beschreibung;
+    },
+    setBeschreibung: function (beschreibung){
+     	this.beschreibung = beschreibung;
     },
     getKategorie: function (){
         return this.kategorie;
