@@ -111,7 +111,7 @@ $(document).ready(function(e){
         
         $('.modal-content').html( singleProductPage(items[0]) );
         
-        console.log(items[0]);
+/*        console.log(items[0]);*/
         
         $('.modal-page').modal('show');
     });
@@ -120,7 +120,7 @@ $(document).ready(function(e){
     $('body').on('click', '.buy-btn', function (evt) {
         $('.modal-content').html( cartPage(cart.getItems()) );
         $('.modal-page').modal('show');
-        console.log(cart);
+/*        console.log(cart);*/
     });
     
     // Filter: Nach Preisen filtern
